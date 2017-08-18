@@ -1,0 +1,10 @@
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\WorldSystem.dacpac
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\SystemForAll.WorldSystem.dll
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\SystemForAll.WorldSystem.pdb
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\ProjNet.dll
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\SQLSpatialTools.dll
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\bin\Release\ProjNet.xml
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\obj\Release\SystemForAll.WorldSystem.dll
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\obj\Release\SystemForAll.WorldSystem.pdb
+C:\Users\juhas\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\WorldSystem\obj\Release\WorldSystem.sqlprojResolveAssemblyReference.cache

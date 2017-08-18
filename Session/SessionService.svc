@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SystemForAll.Session.SessionService" CodeBehind="SessionService.svc.cs" %>

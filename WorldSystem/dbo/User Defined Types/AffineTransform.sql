@@ -1,0 +1,1 @@
+﻿create type AffineTransform external name SQLSpatialTools.[SQLSpatialTools.AffineTransform]

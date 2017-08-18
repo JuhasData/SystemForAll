@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>WorldSystem</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{a589a9d5-a86d-49db-a6f3-296d49117bf1}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>WorldSystem</RootNamespace>
+    <AssemblyName>WorldSystem</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <PermissionSet>SAFE</PermissionSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="source" />
+    <Folder Include="dbo\Functions\" />
+    <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="Assemblies\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ProjNet">
+      <HintPath>Assemblies\ProjNet.dll</HintPath>
+      <IsModelAware>True</IsModelAware>
+    </Reference>
+    <Reference Include="SQLSpatialTools">
+      <HintPath>Assemblies\SQLSpatialTools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="Microsoft.SqlServer.Types">
+      <HintPath>Assemblies\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\dbo.WorldSystem.sql" />
+    <None Include="dbo\dbo.WorldSystem-Insert Spatial References.sql" />
+    <Build Include="dbo\dbo.Globals.sql" />
+    <Build Include="dbo\dbo.Locations.sql" />
+    <Build Include="dbo\Functions\ShiftGeometry.sql" />
+    <Build Include="dbo\Functions\LocateAlongGeog.sql" />
+    <Build Include="dbo\Functions\LocateAlongGeom.sql" />
+    <Build Include="dbo\Functions\InterpolateBetweenGeog.sql" />
+    <Build Include="dbo\Functions\InterpolateBetweenGeom.sql" />
+    <Build Include="dbo\Functions\VacuousGeometryToGeography.sql" />
+    <Build Include="dbo\Functions\VacuousGeographyToGeometry.sql" />
+    <Build Include="dbo\Functions\ConvexHullGeography.sql" />
+    <Build Include="dbo\Functions\ConvexHullGeographyFromText.sql" />
+    <Build Include="dbo\Functions\IsValidGeographyFromGeometry.sql" />
+    <Build Include="dbo\Functions\IsValidGeographyFromText.sql" />
+    <Build Include="dbo\Functions\MakeValidGeographyFromGeometry.sql" />
+    <Build Include="dbo\Functions\MakeValidGeographyFromText.sql" />
+    <Build Include="dbo\Functions\FilterArtifactsGeometry.sql" />
+    <Build Include="dbo\Functions\FilterArtifactsGeography.sql" />
+    <Build Include="dbo\User Defined Types\Projection.sql" />
+    <Build Include="dbo\User Defined Types\AffineTransform.sql" />
+    <Build Include="dbo\Functions\GeometryEnvelopeAggregate.sql" />
+    <Build Include="dbo\Functions\GeographyCollectionAggregate.sql" />
+    <Build Include="dbo\Functions\GeographyUnionAggregate.sql" />
+    <Build Include="Assemblies\SQLSpatialTools.sql" />
+    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="source\SystemForAll.cs" />
+    <Compile Include="source\WorldSystem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="source\Addline Densification.cs" />
+  </ItemGroup>
+</Project>

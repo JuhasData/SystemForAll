@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="WorldSystemModel" />
+  <Alias Key="Target" Value="WorldSystemModel.Store" />
+  <EntityContainerMapping CdmEntityContainer="WorldSystemModelContainer" StorageEntityContainer="WorldSystemModelStoreContainer">
+    <EntitySetMapping Name="Globals">
+      <EntityTypeMapping TypeName="WorldSystemModel.Global">
+        <MappingFragment StoreEntitySet="Globals">
+          <ScalarProperty Name="Envelope" ColumnName="Envelope" />
+          <ScalarProperty Name="Spatial_Dimension" ColumnName="Spatial_Dimension" />
+          <ScalarProperty Name="Coordinate_Dimension" ColumnName="Coordinate_Dimension" />
+          <ScalarProperty Name="Dimension" ColumnName="Dimension" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Method" ColumnName="Method" />
+          <ScalarProperty Name="Geometry_Type" ColumnName="Geometry_Type" />
+          <ScalarProperty Name="Point26" ColumnName="Point26" />
+          <ScalarProperty Name="Point25" ColumnName="Point25" />
+          <ScalarProperty Name="Point24" ColumnName="Point24" />
+          <ScalarProperty Name="Point23" ColumnName="Point23" />
+          <ScalarProperty Name="Point22" ColumnName="Point22" />
+          <ScalarProperty Name="Point21" ColumnName="Point21" />
+          <ScalarProperty Name="Point20" ColumnName="Point20" />
+          <ScalarProperty Name="Point19" ColumnName="Point19" />
+          <ScalarProperty Name="Point18" ColumnName="Point18" />
+          <ScalarProperty Name="Point17" ColumnName="Point17" />
+          <ScalarProperty Name="Point16" ColumnName="Point16" />
+          <ScalarProperty Name="Point15" ColumnName="Point15" />
+          <ScalarProperty Name="Point14" ColumnName="Point14" />
+          <ScalarProperty Name="Point13" ColumnName="Point13" />
+          <ScalarProperty Name="Point12" ColumnName="Point12" />
+          <ScalarProperty Name="Point11" ColumnName="Point11" />
+          <ScalarProperty Name="Point10" ColumnName="Point10" />
+          <ScalarProperty Name="Point9" ColumnName="Point9" />
+          <ScalarProperty Name="Point8" ColumnName="Point8" />
+          <ScalarProperty Name="Point7" ColumnName="Point7" />
+          <ScalarProperty Name="Point6" ColumnName="Point6" />
+          <ScalarProperty Name="Point5" ColumnName="Point5" />
+          <ScalarProperty Name="Point4" ColumnName="Point4" />
+          <ScalarProperty Name="Point3" ColumnName="Point3" />
+          <ScalarProperty Name="Point2" ColumnName="Point2" />
+          <ScalarProperty Name="Point1" ColumnName="Point1" />
+          <ScalarProperty Name="Point0" ColumnName="Point0" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="WorldSystemModel.Location">
+        <MappingFragment StoreEntitySet="Locations">
+          <ScalarProperty Name="Geo" ColumnName="Geo" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Globals" ColumnName="Globals" />
+          <ScalarProperty Name="Location0" ColumnName="Location" />
+          <ScalarProperty Name="Session" ColumnName="Session" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorldSystems">
+      <EntityTypeMapping TypeName="WorldSystemModel.WorldSystem">
+        <MappingFragment StoreEntitySet="WorldSystem">
+          <ScalarProperty Name="Unit_Conversion_Factor" ColumnName="Unit_Conversion_Factor" />
+          <ScalarProperty Name="Authority_Name" ColumnName="Authority_Name" />
+          <ScalarProperty Name="Unit_of_Measure" ColumnName="Unit_of_Measure" />
+          <ScalarProperty Name="Projection" ColumnName="Projection" />
+          <ScalarProperty Name="Prime_Meridan" ColumnName="Prime_Meridan" />
+          <ScalarProperty Name="Datum" ColumnName="Datum" />
+          <ScalarProperty Name="Coordinate_System" ColumnName="Coordinate_System" />
+          <ScalarProperty Name="Well_Known_Text" ColumnName="Well_Known_Text" />
+          <ScalarProperty Name="Spatial_Reference_Id" ColumnName="Spatial_Reference_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

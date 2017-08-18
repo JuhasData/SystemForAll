@@ -1,0 +1,33 @@
+18,446,744,073,709,551,615	UInt64 max value 		
+                5,100,720,000,000	Earth area in sq cm
+	              36,16498	km up per sq cm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1000000000
+267597 			Globals/Session		
+91381604889861		Globals/WorldSystem		= 
+9911			Globals/Location		= 
+9220220451		Locations/WorldSystem		= 
+8501322084508658691	Positions/WorldSystem		= 
+27			Locations/Session		= 
+922030241		Positions/Session		= 
+93031			Positions/Global		= 
+29742911		Entities/Location 		= 
+336230711		Sessions/WorldSystem		= 

@@ -1,0 +1,2 @@
+﻿create function MakeValidGeographyFromGeometry(@inputGeometry geometry) returns geography
+as external name SQLSpatialTools.[SQLSpatialTools.Functions].MakeValidGeographyFromGeometry

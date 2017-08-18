@@ -1,0 +1,2 @@
+﻿create function FilterArtifactsGeometry(@g geometry, @filterEmptyShapes bit, @filterPoints bit, @lineStringTolerance float(53), @ringTolerance float(53)) returns geometry
+as external name SQLSpatialTools.[SQLSpatialTools.Functions].FilterArtifactsGeometry

@@ -1,0 +1,15 @@
+Subscription name: Azure Pass
+Subscription ID: aa510c90-2b6b-4ca7-a3b8-4fa314873bc3
+
+AppName
+SystemForAll
+
+AppID - Windows Universal
+6d07d5ae-4383-47ba-b242-dc1c119ac9be
+
+ASP.NET MVC
+47ebfdf8-2c27-41e7-8816-72f00e37082f
+App Secrect
+rwjmHVQS8zOxPWTF11oZYDp
+redirect URI
+http://localhost:64798

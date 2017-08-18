@@ -1,0 +1,17 @@
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\bin\Debug\SystemForAll.Point.dll
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\bin\Debug\SystemForAll.Point.pdb
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\bin\Debug\SystemForAll.Point.pri
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\Point.csprojResolveAssemblyReference.cache
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\SystemForAll.Point.dll
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\SystemForAll.Point.pdb
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\priconfig.xml
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\priconfig.xml.intermediate
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\layout.resfiles
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\layout.resfiles.intermediate
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\resources.resfiles
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\resources.resfiles.intermediate
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\pri.resfiles
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\pri.resfiles.intermediate
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\qualifiers.txt
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\qualifiers.txt.intermediate
+C:\Users\mantylajp\OneDrive\Dokument\Visual Studio 2015\Projects\SystemForAll\Point\obj\Debug\MultipleQualifiersPerDimensionFound.txt

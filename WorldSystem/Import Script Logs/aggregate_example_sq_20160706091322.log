@@ -1,0 +1,13 @@
+7/6/2016 17:13:22 PM	This log contains information about the import operation of the script 'aggregate_example.sql' into project 'WorldSystems' on computer 'PH-8B174584H' by user'mantylajp.
+7/6/2016 17:13:22 PM	Started importing file: C:\Users\mantylajp\AppData\Local\Temp\tmp3CB0.tmp 
+7/6/2016 17:13:22 PM	File name C:\Users\mantylajp\AppData\Local\Temp\tmp3CB0.tmp (size: 6739)
+7/6/2016 17:13:22 PM	Parsing import script
+7/6/2016 17:13:22 PM	Total number of batches in script: 27
+7/6/2016 17:13:22 PM	Total number of statements in script: 21
+7/6/2016 17:13:22 PM	The script was successfully imported into the project.
+7/6/2016 17:13:22 PM	Analyzing schema objects...
+7/6/2016 17:13:22 PM	Scanning project for duplicate elements
+7/6/2016 17:13:22 PM	Finished duplicate element processing
+7/6/2016 17:13:22 PM	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+7/6/2016 17:13:22 PM	A summary of the import was saved to the following location: C:\Users\mantylajp\Desktop\Coding\SystemForAll\WorldSystems\Import Script Logs\aggregate_example_sq_20160706091322.log
+7/6/2016 17:13:22 PM	Click Finish to continue...
