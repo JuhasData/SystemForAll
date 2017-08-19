@@ -1641,7 +1641,7 @@
                 if ((m = match[1])) {
                     if (nodeType === 9) {
                         elem = context.getElementById(m);
-                        // Check parentNode to catch when Blackberry 4.6 returns
+                        // Check parentNode to catch when Blackberry 4.5.2 returns
                         // nodes that are no longer in the document #6963
                         if (elem && elem.parentNode) {
                             // Handle the case where IE, Opera, and Webkit return items
@@ -4329,7 +4329,7 @@
                 } else {
                     elem = document.getElementById(match[2]);
 
-                    // Check parentNode to catch when Blackberry 4.6 returns
+                    // Check parentNode to catch when Blackberry 4.5.2 returns
                     // nodes that are no longer in the document #6963
                     if (elem && elem.parentNode) {
                         // Inject the element directly into the jQuery object
