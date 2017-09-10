@@ -12,17 +12,23 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SystemForAll.Entity;
+using SystemForAll.Point;
 
 namespace SystemForAll.Global
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for GlobalControl.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class GlobalControl : UserControl
     {
-        public UserControl1()
+        public GlobalControl nextGlobal;
+        public Entity entity;
+
+        public GlobalControl()
         {
             InitializeComponent();
         }
+
     }
 }

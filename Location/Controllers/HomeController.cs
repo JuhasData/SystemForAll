@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using SystemForAll.Global;
 
 namespace SystemForAll.Location.Controllers
 {
@@ -10,5 +11,27 @@ namespace SystemForAll.Location.Controllers
 
             return View();
         }
+
+        private GlobalControl global;
+        
+        //Locate all Global Entities
+        public void locateAllGlobes()
+        {
+            GlobalControl currentGlobal = global;
+            while (currentGlobal.nextGlobal != null)
+            {
+                //populate the Page with Globals by currentGlobal.entity
+                currentGlobal = currentGlobal.nextGlobal;
+            }
+        }
+
+        public void Add(Entity entity)
+        {
+            GlobalControl globalToAdd = new GlobalControl();
+            globalToAdd.entity = entity;
+            GlobalControl currentGlobal = global;
+            currentGlobal.nextGlobal = globalToAdd;
+        }
+
     }
 }
