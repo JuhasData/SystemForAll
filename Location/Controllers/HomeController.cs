@@ -25,10 +25,10 @@ namespace SystemForAll.Location.Controllers
             }
         }
 
-        public void Add(Entity entity)
+        public void Add(long entity)
         {
             GlobalControl globalToAdd = new GlobalControl();
-            globalToAdd.entity = entity;
+            globalToAdd.nextGlobal = entity;
             GlobalControl currentGlobal = global;
             currentGlobal.nextGlobal = globalToAdd;
         }

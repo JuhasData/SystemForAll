@@ -1,8 +1,10 @@
-﻿using SystemForAll.Point;
+﻿using System.Windows;
+using System.Windows.Controls;
+using SystemForAll.Point;
 
 namespace SystemForAll.Entity
 {
-    class Entity<Point>
+    public class Entity<Point>
     {
         private PointStruct<Point> point0;
         private PointStruct<Point> point1;

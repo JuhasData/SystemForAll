@@ -10,6 +10,11 @@
     <WebStackScaffolding_IsAsyncSelected>True</WebStackScaffolding_IsAsyncSelected>
     <IISExpressSSLPort>44347</IISExpressSSLPort>
     <NameOfLastUsedPublishProfile>globalsAPI - Web Deploy</NameOfLastUsedPublishProfile>
+    <Use64BitIISExpress />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

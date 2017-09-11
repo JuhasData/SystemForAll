@@ -12,8 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using SystemForAll.Entity;
-using SystemForAll.Point;
 
 namespace SystemForAll.Global
 {
@@ -23,12 +21,16 @@ namespace SystemForAll.Global
     public partial class GlobalControl : UserControl
     {
         public GlobalControl nextGlobal;
-        public Entity entity;
+        public long entity;
 
         public GlobalControl()
         {
             InitializeComponent();
         }
 
+        public static implicit operator GlobalControl(long v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

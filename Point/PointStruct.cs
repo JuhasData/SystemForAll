@@ -9,11 +9,11 @@ namespace SystemForAll.Point
     public struct PointStruct<T>
     {
         //Add User information
-        private User user;
-        private Session session;
-        private Location location;
-        private Global global;
-        private Entity entity;
+        private long user;
+        private long session;
+        private long location;
+        private long global;
+        private long entity;
 
                 // Generic state date.
         private T xPos;
@@ -21,7 +21,7 @@ namespace SystemForAll.Point
         private T zPos;
 
         // Generic constructor.
-        public PointStruct(T xVal, T yVal, T zVal, User userVal, Session sessionVal, Location locationVal, Global globalVal, Entity entityVal)
+        public PointStruct(T xVal, T yVal, T zVal, long userVal, long sessionVal, long locationVal, long globalVal, long entityVal)
         {
             xPos = xVal;
             yPos = yVal;
@@ -34,29 +34,29 @@ namespace SystemForAll.Point
         }
 
         // Generic properties.
-        public User userProp 
+        public long userProp 
         { 
            get { return user; }
            set { user = value; } 
         }
 
-        public Session sessionProp 
+        public long sessionProp 
         {
              get {return session; }
              set { session = value;} 
         }
-        public Location locationProp 
+        public long locationProp 
         { 
             get { return location; }
-            set; { location = value; }
+            set { location = value; }
         }
-        public Global globalProp 
+        public long globalProp 
         { 
             get { return global; }
             set { global = value; }
         }
 
-        public Entity entityProp 
+        public long entityProp 
         { 
             get { return entity;} 
             set { entity = value;} 
@@ -93,11 +93,11 @@ namespace SystemForAll.Point
             xPos = default(T);
             yPos = default(T);
             zPos = default(T);
-            user = default(null);
-            session = default(null)
-            location = default(null);
-            global = default(null);
-            entity = default(null);
+            user = default(long);
+            session = default(long);
+            location = default(long);
+            global = default(long);
+            entity = default(long);
         }
     }
 }

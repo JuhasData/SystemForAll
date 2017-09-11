@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.UI.Popups;
+//using Windows.UI.Popups;
 
 namespace SystemForAll.Point
 {
@@ -38,10 +38,10 @@ namespace SystemForAll.Point
         public Point()
           : this(PointState.Created) { }
 
-        public void DisplayStats()
-        {
-            var dialog = new MessageDialog(X.ToString(), Y.ToString());
-        }
+        //public void DisplayStats()
+        //{
+        //    var dialog = new MessageDialog(X.ToString(), Y.ToString());
+        //}
 
         public static Point operator +(Point p1, int change)
         {
