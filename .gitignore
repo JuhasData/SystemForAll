@@ -214,8 +214,10 @@ UpgradeLog*.htm
 *.mdf
 *.ldf
 *.dbmdl
+*.jfm
 
 .WorldSyStem/WorldSystem.dbmdl
+.WorldSystem.WorldSystem.jfm
 
 # Business Intelligence projects
 *.rdl.data

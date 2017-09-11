@@ -17,12 +17,17 @@ namespace SystemForAll.Location.Controllers
         //Locate all Global Entities
         public void locateAllGlobes()
         {
-            GlobalControl currentGlobal = global;
+            GlobalControl currentGlobal = GetCurrentGlobal();
             while (currentGlobal.nextGlobal != null)
             {
                 //populate the Page with Globals by currentGlobal.entity
                 currentGlobal = currentGlobal.nextGlobal;
             }
+        }
+
+        private GlobalControl GetCurrentGlobal()
+        {
+            return global;
         }
 
         public void Add(long entity)
