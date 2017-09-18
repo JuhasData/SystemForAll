@@ -13,6 +13,7 @@ namespace SystemForAll.Session
         [DataMember]
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
         [Key]
+        //Get ID as token http://dev-systemforall.pantheonsite.io/session/token
         public int Id { get; set; }
         [DataMember]
         [StringLength(50)]
