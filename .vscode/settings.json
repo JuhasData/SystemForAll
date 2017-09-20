@@ -1,3 +1,8 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+"git.enabled": true,
+"git.autorefresh": true,
+"git.autofetch": true,
+"update.channel": "default",
+"csharp.suppressDotnetInstallWarning": true
 }
